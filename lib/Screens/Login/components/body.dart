@@ -87,7 +87,7 @@ class _BodyState extends State<Body> {
             ),
             SizedBox(height: size.height * 0.03),
             RoundedInputField(
-              hintText: "Your Email",
+              hintText: "EMAIL",
               onChanged: (value) {
                 setState(() {
                   _userText = value;
